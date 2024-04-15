@@ -43,7 +43,7 @@ class View(ft.UserControl):
         self._page.controls.append(row1)
 
         self.txt_codice_corso=ft.TextField(label="codice corso")
-        self.btn_studenti_corso=ft.ElevatedButton(text="studenti corso",on_click=self._controller.get_studenti_corso)
+        self.btn_studenti_corso=ft.ElevatedButton(text="Studenti corso",on_click=self._controller.get_studenti_corso)
         self.btn_dettaglio_corso= ft.ElevatedButton(text="dettaglio corso", on_click=self._controller.get_dettaglio_corso)
 
         row2= ft.Row(controls=[self.txt_codice_corso,self.btn_studenti_corso,self.btn_dettaglio_corso],alignment=ft.MainAxisAlignment.CENTER)
