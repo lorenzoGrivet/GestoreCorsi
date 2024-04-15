@@ -8,6 +8,20 @@ class Controller:
         # the model, which implements the logic of the program and holds the data
         self._model = model
 
+
+    def get_corsi_periodo(self,e):
+        pass
+
+    def get_studenti_periodo(self,e):
+        pass
+
+    def get_studenti_corso(self,e):
+        pass
+
+    def get_dettaglio_corso(self,e):
+        pass
+
+
     def handle_hello(self, e):
         name = self._view.txt_name.value
         if name is None or name == "":
